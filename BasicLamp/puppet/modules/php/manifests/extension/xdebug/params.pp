@@ -53,6 +53,7 @@ class php::extension::xdebug::params {
       '.anon/zend_extension' => "${install_dir}/xdebug.so",
       '.anon/xdebug.max_nesting_level' => '1000',
       '.anon/xdebug.remote_enable' => '1',
+      '.anon/xdebug.remote_connect_back' => '1',
     }
   }
 
